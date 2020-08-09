@@ -1,13 +1,13 @@
 import { StyleSheet } from 'react-native';
 
-
 const styles = StyleSheet.create({
     container: {
-        padding: 40,
+        paddingTop: 56,
+        padding: 24,
         backgroundColor: '#8257e5',
     },
 
-    topBar:{
+    topBar: {
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'space-between',
@@ -22,7 +22,11 @@ const styles = StyleSheet.create({
         marginVertical: 40,
     },
 
+    header: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-between'
+    }
 });
-
 
 export default styles;
